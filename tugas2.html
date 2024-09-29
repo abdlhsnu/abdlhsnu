@@ -1,0 +1,76 @@
+Membuat Dokumen HTML
+Buka dokumen HTML Anda dan tambahkan tag <frameset> di luar tag <body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh Frameset</title>
+</head>
+<frameset cols="50%,50%">
+    <!-- Frame pertama -->
+    <frame src="halaman1.html" name="frame1">
+    <!-- Frame kedua -->
+    <frame src="halaman2.html" name="frame2">
+</frameset>
+</html>
+
+Mengatur Atribut cols atau rows
+<frameset cols="50%,50%"></frameset>
+    <!-- Frame pertama -->
+    <frame src="halaman1.html" name="frame1">
+    <!-- Frame kedua -->
+    <frame src="halaman2.html" name="frame2">
+</frameset>
+
+Menambahkan Konten ke dalam Frame
+<frameset cols="50%,50%"></frameset>
+    <!-- Frame pertama -->
+    <frame src="halaman1.html" name="frame1">
+    <!-- Frame kedua -->
+    <frame src="halaman2.html" name="frame2">
+</frameset>
+
+Menggunakan Atribut Lainnya
+Selain cols dan rows, ada beberapa atribut lain yang dapat digunakan
+<frameset cols="50%,50%" frameborder="1" border="1"></frameset>
+    <!-- Frame pertama -->
+    <frame src="halaman1.html" name="frame1">
+    <!-- Frame kedua -->
+    <frame src="halaman2.html" name="frame2">
+</frameset>
+
+Membuat Frame Horizontal dan Vertikal
+Horizontal
+<frameset cols="25%,50%,25%"></frameset>
+    <!-- Frame pertama -->
+    <frame src="halaman1.html" name="frame1">
+    <!-- Frame kedua -->
+    <frame src="halaman2.html" name="frame2">
+    <!-- Frame ketiga -->
+    <frame src="halaman3.html" name="frame3">
+</frameset>
+Vertikal
+<frameset rows="25%,50%,25%"></frameset>
+    <!-- Frame pertama -->
+    <frame src="halaman1.html" name="frame1">
+    <!-- Frame kedua -->
+    <frame src="halaman2.html" name="frame2">
+    <!-- Frame ketiga -->
+    <frame src="halaman3.html" name="frame3">
+</frameset>
+
+Menggabungkan Frame Horizontal dan Vertikal
+<html></html>
+<head>
+    <title>VERTICAL & HORIZONTAL FRAME</title>
+</head>
+<frameset cols="30%,70%">
+    <!-- Frame tambahan -->
+    <frame src="halaman3.html" name="frame3">
+    <frameset rows="50%,50%">
+        <!-- Frame pertama -->
+        <frame src="halaman1.html" name="frame1">
+        <!-- Frame kedua -->
+        <frame src="halaman2.html" name="frame2">
+    </frameset>
+</frameset>
+</html>
