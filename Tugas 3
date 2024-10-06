@@ -1,0 +1,38 @@
+<table border="1">
+  <tr>
+      <th>Nama</th>
+      <th>Usia</th>
+      <th>Kota</th>
+  </tr>
+  <tr>
+      <td>Savina Amalia</td>
+      <td>22</td>
+      <td>DKI,Jakarta</td>
+  </tr>
+  <tr>
+      <td>Bobian</td>
+      <td>25</td>
+      <td>Bandung,Jawa Barat</td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="5" cellpadding="10">
+    <tr>
+        <th rowspan="2">Mata Pelajaran</th>
+        <th colspan="2">Nilai</th>
+    </tr>
+    <tr>
+        <th>UTS</th>
+        <th>UAS</th>
+    </tr>
+    <tr>
+        <td>Matematika</td>
+        <td>85</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>Bahasa Inggris</td>
+        <td>78</td>
+        <td>82</td>
+    </tr>
+</table>
